@@ -1,9 +1,27 @@
-[{
-    "key": "samples.lights",
+[
+  {
+    "name": "Lights",
     "icon": "FA_LIGHTBULB_O",
-    "file": "github:samples/lights"
-}, {
-    "key": "samples.ligcharthts",
+    "file": "templates/lights"
+  },
+  {
+    "name": "Chart",
     "icon": "FA_BAR_CHART",
-    "file": "github:samples/chart"
-}]
+    "file": "templates/chart"
+  },
+  {
+    "name": "Numbers",
+    "icon": "FA_DASHBOARD",
+    "file": "templates/numbers"
+  },
+  {
+    "name": "Scenes",
+    "icon": "FA_PICTURE_O",
+    "file": "templates/scenes"
+  },
+  {
+    "name": "Demo",
+    "icon": "FA_SMILE_O",
+    "file": "templates/demo"
+  }
+]
