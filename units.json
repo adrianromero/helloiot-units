@@ -1,0 +1,9 @@
+[{
+    "key": "samples.lights",
+    "icon": "FA_LIGHTBULB_O",
+    "file": "github:samples/lights"
+}, {
+    "key": "samples.ligcharthts",
+    "icon": "FA_BAR_CHART",
+    "file": "github:samples/chart"
+}]
