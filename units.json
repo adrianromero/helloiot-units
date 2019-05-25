@@ -1,27 +1,27 @@
 [
   {
     "name": "Lights",
-    "icon": "FA_LIGHTBULB_O",
+    "icon": "FA_SOLID_LIGHTBULB",
     "file": "templates/lights"
   },
   {
     "name": "Chart",
-    "icon": "FA_BAR_CHART",
+    "icon": "FA_SOLID_CHART_BAR",
     "file": "templates/chart"
   },
   {
     "name": "Numbers",
-    "icon": "FA_DASHBOARD",
+    "icon": "FA_SOLID_TACHOMETER_ALT",
     "file": "templates/numbers"
   },
   {
     "name": "Scenes",
-    "icon": "FA_PICTURE_O",
+    "icon": "FA_SOLID_IMAGES",
     "file": "templates/scenes"
   },
   {
     "name": "Demo",
-    "icon": "FA_SMILE_O",
+    "icon": "FA_SOLID_SMILE",
     "file": "templates/demo"
   }
 ]
