@@ -49,7 +49,7 @@
   label=""
   text="Timer Light 1" 
   style="-fx-background-color: transparent; -fx-base:-fx-color4-fill; -fx-button-fill:-fx-color4-fill;">
-    <graphic><Picture iconAwesome="FA_CLOCK_O" size="48" color="WHITE"/></graphic>
+    <graphic><Picture iconFontGlyph="FA_SOLID_CLOCK" size="48" color="WHITE"/></graphic>
     <scriptCode><![CDATA[
         _allDevices().getByName('living_light1').sendON(5000);
     ]]></scriptCode>
@@ -58,7 +58,7 @@
   label=""
   text="Switch lights off" 
   style="-fx-background-color: transparent; -fx-base:-fx-color3-fill; -fx-button-fill:-fx-color3-fill;">
-    <graphic><Picture iconAwesome="FA_POWER_OFF" size="48" color="white"/></graphic>
+    <graphic><Picture iconFontGlyph="FA_SOLID_POWER_OFF" size="48" color="white"/></graphic>
     <scriptCode><![CDATA[
         _allDevices().tagged('lamp').forEach(function (d) {
             d.sendOFF();
@@ -69,7 +69,7 @@
   label=""
   text="Scroll" 
   style="-fx-background-color: transparent; -fx-base:-fx-color1-fill; -fx-button-fill:-fx-color1-fill;">
-    <graphic><Picture iconAwesome="FA_STAR_O" size="48" color="yellow"/></graphic>
+    <graphic><Picture iconFontGlyph="FA_SOLID_STAR" size="48" color="yellow"/></graphic>
     <parameters light1="$living_light1" light2="$living_light2" light3="$living_light3" light4="$living_light4" light5="$living_light5"/>
     <scriptCode><![CDATA[
         light1.sendOFF();           

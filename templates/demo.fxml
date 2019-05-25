@@ -29,7 +29,7 @@
 <ButtonSimple UnitPage.layout="StartLine" device="$espurna01"/>
 
 <ButtonScript label="Temporizador">
-    <graphic><Icon iconAwesome="FA_CIRCLE" size="48" color="WHITE" shine="WHITE"/></graphic>
+    <graphic><Picture iconFontGlyph="FA_SOLID_CIRCLE" size="48" color="WHITE" shine="WHITE"/></graphic>
     <scriptCode>
         _device('lights').sendMessage('name/espurna01/ontimer', '5000');
     </scriptCode>
@@ -37,7 +37,7 @@
 
 <ButtonSimple UnitPage.layout="StartLine" device="$espurna03"/>    
 <ButtonScript label="Temporizador">
-    <graphic><Icon iconAwesome="FA_CIRCLE" size="48" color="WHITE" shine="WHITE"/></graphic>
+    <graphic><Picture iconFontGlyph="FA_SOLID_CIRCLE" size="48" color="WHITE" shine="WHITE"/></graphic>
     <scriptCode>
         _device('lights').sendMessage('name/espurna03/ontimer', '5000');
     </scriptCode>
@@ -50,14 +50,14 @@
 </ControlIntensity>
      
 <ButtonScript UnitPage.layout="StartLine" label="Encender el salón">
-    <graphic><Icon iconAwesome="FA_BOLT" size="48" color="LIME" shine="WHITE"/></graphic>
+    <graphic><Picture iconFontGlyph="FA_SOLID_BOLT" size="48" color="LIME" shine="WHITE"/></graphic>
     <parameters newstatus="1"/>
     <scriptCode>
             _device('lights').sendMessage('tagged/hall/status', newstatus);
     </scriptCode>
 </ButtonScript>
 <ButtonScript label="Apagar el salón" confirm="true">
-    <graphic><Icon iconAwesome="FA_BOLT" size="48" color="RED" shine="WHITE"/></graphic>
+    <graphic><Picture iconFontGlyph="FA_SOLID_BOLT" size="48" color="RED" shine="WHITE"/></graphic>
     <parameters newstatus="0"/>
     <scriptCode>
             _device('lights').sendMessage('tagged/hall/status', newstatus);
@@ -71,14 +71,14 @@
 
 <LabelSection UnitPage.layout="StartLine" text="Control alarma"/> 
 <ButtonScript UnitPage.layout="StartLine" label="Activar alarma" securityKey="mainsecuritykey">
-    <graphic><Icon iconAwesome="FA_SIGN_OUT" size="48" color="WHITE" shine="WHITE"/></graphic>
+    <graphic><Picture iconFontGlyph="FA_SOLID_SIGN_OUT_ALT" size="48" color="WHITE" shine="WHITE"/></graphic>
     <scriptCode>
         _device('security').sendStatus('ARMING');
     </scriptCode>
 </ButtonScript> 
 
 <ButtonPassword label="Cambiar clave de alarma" securityKey="mainsecuritykey">
-    <graphic><Icon iconAwesome="FA_KEY" size="48" color="WHITE" shine="WHITE"/></graphic>
+    <graphic><Picture iconFontGlyph="FA_SOLID_KEY" size="48" color="WHITE" shine="WHITE"/></graphic>
 </ButtonPassword>
 
 <ButtonSend UnitPage.page="Desactivar alarma" 
@@ -87,5 +87,5 @@
             securityKey="mainsecuritykey" 
             device="$securityactions"
             message="DISARMED">
-    <graphic><Icon iconAwesome="FA_SIGN_IN" size="48" color="WHITE" shine="WHITE"/></graphic>
+    <graphic><Picture iconFontGlyph="FA_SOLID_SIGN_IN_ALT" size="48" color="WHITE" shine="WHITE"/></graphic>
 </ButtonSend>
