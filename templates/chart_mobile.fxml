@@ -15,6 +15,6 @@
 <LabelSection UnitPage.page="Temperature Chart" UnitPage.layout="StartLine" text="Chart"/>
    
 <ViewChart UnitPage.page="Temperature Chart" UnitPage.layout="StartLine" label="Temperature bedrooms" legendSide="BOTTOM">
-    <ViewChartSerie device="$temperature1"/>
-    <ViewChartSerie device="$temperature2"/>
+    <ChartSerie device="$temperature1" styleClass="unitchartserie"/>
+    <ChartSerie device="$temperature2" styleClass="unitchartserie2"/>
 </ViewChart>
