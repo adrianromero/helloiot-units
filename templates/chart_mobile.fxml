@@ -7,14 +7,14 @@
 </Thermostat> 
 
 
-<LabelSection UnitPage.page="Temperature Chart" UnitPage.layout="StartLine" text="Temperature"/>
+<LabelSection UnitPage.page="FA_SOLID_CHART_BAR//Temperature Chart" UnitPage.layout="StartLine" text="Temperature"/>
    
-<SliderSimple UnitPage.page="Temperature Chart" UnitPage.layout="StartLine" device="$temperature1"/>
-<SliderSimple UnitPage.page="Temperature Chart" device="$temperature2"/>
+<SliderSimple UnitPage.page="FA_SOLID_CHART_BAR//Temperature Chart" UnitPage.layout="StartLine" device="$temperature1"/>
+<SliderSimple UnitPage.page="FA_SOLID_CHART_BAR//Temperature Chart" device="$temperature2"/>
 
-<LabelSection UnitPage.page="Temperature Chart" UnitPage.layout="StartLine" text="Chart"/>
+<LabelSection UnitPage.page="FA_SOLID_CHART_BAR//Temperature Chart" UnitPage.layout="StartLine" text="Chart"/>
    
-<ViewChart UnitPage.page="Temperature Chart" UnitPage.layout="StartLine" label="Temperature bedrooms" legendSide="BOTTOM">
+<ViewChart UnitPage.page="FA_SOLID_CHART_BAR//Temperature Chart" UnitPage.layout="StartLine" label="Temperature bedrooms" legendSide="BOTTOM">
     <ChartSerie device="$temperature1" styleClass="unitchartserie"/>
     <ChartSerie device="$temperature2" styleClass="unitchartserie2"/>
 </ViewChart>

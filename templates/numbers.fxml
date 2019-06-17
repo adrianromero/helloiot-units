@@ -3,23 +3,23 @@
         <properties label="Numeric level"/>
 </DeviceNumber> 
 
-<LabelSection UnitPage.page="Numbers" UnitPage.layout="StartLine" text="Numeric units"/> 
+<LabelSection UnitPage.page="FA_SOLID_TACHOMETER_ALT//Numbers" UnitPage.layout="StartLine" text="Numeric units"/> 
   
-<ViewNumberChart UnitPage.page="Numbers" UnitPage.layout="StartLine" device="$number"/>
-<ViewNumberProgress UnitPage.page="Numbers" device="$number"/>
-<ButtonSimple UnitPage.page="Numbers" device="$number" />
-<ButtonsSpinner UnitPage.page="Numbers" device="$number"/>
-<ButtonPair UnitPage.page="Numbers" device="$number"/>
-<SliderSimple UnitPage.page="Numbers" device="$number"/>
+<ViewNumberChart UnitPage.page="FA_SOLID_TACHOMETER_ALT//Numbers" UnitPage.layout="StartLine" device="$number"/>
+<ViewNumberProgress UnitPage.page="FA_SOLID_TACHOMETER_ALT//Numbers" device="$number"/>
+<ButtonSimple UnitPage.page="FA_SOLID_TACHOMETER_ALT//Numbers" device="$number" />
+<ButtonsSpinner UnitPage.page="FA_SOLID_TACHOMETER_ALT//Numbers" device="$number"/>
+<ButtonPair UnitPage.page="FA_SOLID_TACHOMETER_ALT//Numbers" device="$number"/>
+<SliderSimple UnitPage.page="FA_SOLID_TACHOMETER_ALT//Numbers" device="$number"/>
 
-<LabelSection UnitPage.page="Numbers" UnitPage.layout="StartLine" text="Gauges"/>
+<LabelSection UnitPage.page="FA_SOLID_TACHOMETER_ALT//Numbers" UnitPage.layout="StartLine" text="Gauges"/>
 
-<ViewGauge UnitPage.page="Numbers" UnitPage.layout="StartLine" device="$number" type="DASHBOARD"/>
-<ViewGauge UnitPage.page="Numbers" device="$number" type="BASIC"/>
-<ViewGauge UnitPage.page="Numbers" device="$number" type="SPACEX"/>
-<ViewGauge UnitPage.page="Numbers" device="$number" barColor="RED" type="FLAT"/>
+<ViewGauge UnitPage.page="FA_SOLID_TACHOMETER_ALT//Numbers" UnitPage.layout="StartLine" device="$number" type="DASHBOARD"/>
+<ViewGauge UnitPage.page="FA_SOLID_TACHOMETER_ALT//Numbers" device="$number" type="BASIC"/>
+<ViewGauge UnitPage.page="FA_SOLID_TACHOMETER_ALT//Numbers" device="$number" type="SPACEX"/>
+<ViewGauge UnitPage.page="FA_SOLID_TACHOMETER_ALT//Numbers" device="$number" barColor="RED" type="FLAT"/>
 
-<ViewGauge UnitPage.page="Numbers" UnitPage.layout="StartLine" device="$number" barColor="GREEN" type="LINEAR"/>
-<ViewGauge UnitPage.page="Numbers" device="$number" barColor="LIGHTGREEN" type="TINY"/>
-<ViewGauge UnitPage.page="Numbers" device="$number" barColor="MAGENTA" type="INDICATOR"/>
-<ViewGauge UnitPage.page="Numbers" device="$number" type="QUARTER"/>
+<ViewGauge UnitPage.page="FA_SOLID_TACHOMETER_ALT//Numbers" UnitPage.layout="StartLine" device="$number" barColor="GREEN" type="LINEAR"/>
+<ViewGauge UnitPage.page="FA_SOLID_TACHOMETER_ALT//Numbers" device="$number" barColor="LIGHTGREEN" type="TINY"/>
+<ViewGauge UnitPage.page="FA_SOLID_TACHOMETER_ALT//Numbers" device="$number" barColor="MAGENTA" type="INDICATOR"/>
+<ViewGauge UnitPage.page="FA_SOLID_TACHOMETER_ALT//Numbers" device="$number" type="QUARTER"/>

@@ -15,37 +15,37 @@
     <properties name="living_light5" label="Living light 5" tags="living lamp"/>
 </Light>                 
 
-<LabelSection UnitPage.page="Lights" UnitPage.layout="StartLine" text="Living room lights"/>
+<LabelSection UnitPage.page="FA_SOLID_LIGHTBULB//Lights" UnitPage.layout="StartLine" text="Living room lights"/>
    
-<ViewSimple UnitPage.page="Lights" UnitPage.layout="StartLine" device="$living_light1" iconStatus="BULBTEXT/1"/>        
-<ViewSimple UnitPage.page="Lights" device="$living_light2" iconStatus="BULBTEXT/2"/>
-<ViewSimple UnitPage.page="Lights" device="$living_light3" iconStatus="BULBTEXT/3"/>
-<ViewSimple UnitPage.page="Lights" device="$living_light4" iconStatus="BULBTEXT/4"/>
-<ViewSimple UnitPage.page="Lights" device="$living_light5" iconStatus="BULBTEXT/5"/>
+<ViewSimple UnitPage.page="FA_SOLID_LIGHTBULB//Lights" UnitPage.layout="StartLine" device="$living_light1" iconStatus="BULBTEXT/1"/>        
+<ViewSimple UnitPage.page="FA_SOLID_LIGHTBULB//Lights" device="$living_light2" iconStatus="BULBTEXT/2"/>
+<ViewSimple UnitPage.page="FA_SOLID_LIGHTBULB//Lights" device="$living_light3" iconStatus="BULBTEXT/3"/>
+<ViewSimple UnitPage.page="FA_SOLID_LIGHTBULB//Lights" device="$living_light4" iconStatus="BULBTEXT/4"/>
+<ViewSimple UnitPage.page="FA_SOLID_LIGHTBULB//Lights" device="$living_light5" iconStatus="BULBTEXT/5"/>
      
-<LabelSection UnitPage.page="Lights" UnitPage.layout="StartLine" text="Light status"/>
+<LabelSection UnitPage.page="FA_SOLID_LIGHTBULB//Lights" UnitPage.layout="StartLine" text="Light status"/>
 
-<EditStatus UnitPage.page="Lights" UnitPage.layout="StartLine" device="$living_light1"/>
-<EditStatus UnitPage.page="Lights" device="$living_light2"/>
-<EditStatus UnitPage.page="Lights" device="$living_light3"/>
-<EditStatus UnitPage.page="Lights" device="$living_light4"/>
-<EditStatus UnitPage.page="Lights" device="$living_light5"/>
+<EditStatus UnitPage.page="FA_SOLID_LIGHTBULB//Lights" UnitPage.layout="StartLine" device="$living_light1"/>
+<EditStatus UnitPage.page="FA_SOLID_LIGHTBULB//Lights" device="$living_light2"/>
+<EditStatus UnitPage.page="FA_SOLID_LIGHTBULB//Lights" device="$living_light3"/>
+<EditStatus UnitPage.page="FA_SOLID_LIGHTBULB//Lights" device="$living_light4"/>
+<EditStatus UnitPage.page="FA_SOLID_LIGHTBULB//Lights" device="$living_light5"/>
 
-<LabelSection UnitPage.page="Lights" UnitPage.layout="StartLine" text="Light switchs"/>  
+<LabelSection UnitPage.page="FA_SOLID_LIGHTBULB//Lights" UnitPage.layout="StartLine" text="Light switchs"/>  
   
-<ButtonSimple UnitPage.page="Lights" UnitPage.layout="StartLine" device="$living_light1" iconStatus="TOGGLE"/>
-<ButtonSimple UnitPage.page="Lights" device="$living_light2" iconStatus="TOGGLE"/>
-<ButtonSimple UnitPage.page="Lights" device="$living_light3" iconStatus="TOGGLE"/>
-<ButtonSimple UnitPage.page="Lights" device="$living_light4" iconStatus="TOGGLE"/>
-<ButtonSimple UnitPage.page="Lights" device="$living_light5" iconStatus="TOGGLE"/>
+<ButtonSimple UnitPage.page="FA_SOLID_LIGHTBULB//Lights" UnitPage.layout="StartLine" device="$living_light1" iconStatus="TOGGLE"/>
+<ButtonSimple UnitPage.page="FA_SOLID_LIGHTBULB//Lights" device="$living_light2" iconStatus="TOGGLE"/>
+<ButtonSimple UnitPage.page="FA_SOLID_LIGHTBULB//Lights" device="$living_light3" iconStatus="TOGGLE"/>
+<ButtonSimple UnitPage.page="FA_SOLID_LIGHTBULB//Lights" device="$living_light4" iconStatus="TOGGLE"/>
+<ButtonSimple UnitPage.page="FA_SOLID_LIGHTBULB//Lights" device="$living_light5" iconStatus="TOGGLE"/>
 
-<LabelSection UnitPage.page="Lights" UnitPage.layout="StartLine" text="More actions"/> 
+<LabelSection UnitPage.page="FA_SOLID_LIGHTBULB//Lights" UnitPage.layout="StartLine" text="More actions"/> 
 
-<ButtonSimple UnitPage.page="Lights" UnitPage.layout="StartLine" device="$living_light1"
+<ButtonSimple UnitPage.page="FA_SOLID_LIGHTBULB//Lights" UnitPage.layout="StartLine" device="$living_light1"
   label=""
   text="Light 1" 
   style="-fx-background-color: transparent;"/>
-<ButtonScript UnitPage.page="Lights"
+<ButtonScript UnitPage.page="FA_SOLID_LIGHTBULB//Lights"
   label=""
   text="Timer Light 1" 
   style="-fx-background-color: transparent; -fx-base:-fx-color4-fill; -fx-button-fill:-fx-color4-fill;">
@@ -54,7 +54,7 @@
         _allDevices().getByName('living_light1').sendON(5000);
     ]]></scriptCode>
 </ButtonScript>                        
-<ButtonScript UnitPage.page="Lights" confirm="true"
+<ButtonScript UnitPage.page="FA_SOLID_LIGHTBULB//Lights" confirm="true"
   label=""
   text="Switch lights off" 
   style="-fx-background-color: transparent; -fx-base:-fx-color3-fill; -fx-button-fill:-fx-color3-fill;">
@@ -65,7 +65,7 @@
         });
     ]]></scriptCode>
 </ButtonScript>                                   
-<ButtonScript UnitPage.page="Lights"
+<ButtonScript UnitPage.page="FA_SOLID_LIGHTBULB//Lights"
   label=""
   text="Scroll" 
   style="-fx-background-color: transparent; -fx-base:-fx-color1-fill; -fx-button-fill:-fx-color1-fill;">

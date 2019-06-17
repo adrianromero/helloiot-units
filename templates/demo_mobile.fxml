@@ -81,7 +81,7 @@
     <graphic><Picture iconFontGlyph="FA_SOLID_KEY" size="48" color="WHITE" shine="WHITE"/></graphic>
 </ButtonPassword>
 
-<ButtonSend UnitPage.page="Desactivar alarma" 
+<ButtonSend UnitPage.page="FA_SOLID_LOCK//Desactivar alarma" 
             UnitPage.layout="StartLine" 
             text="Desactivar alarma" 
             securityKey="mainsecuritykey" 
